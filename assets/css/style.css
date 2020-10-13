@@ -1,0 +1,40 @@
+
+/*  --------------- Navbar Styling */
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(47 47 47 / 80%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+body {
+    background-color: grey;
+}
+
+#logo {
+    height: 100px;
+    width: 150px;
+    
+}
+
+#home-image {
+    height: 450px;
+    width: 100%;
+}
+
+#background-image-container {
+
+    height: 450px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
