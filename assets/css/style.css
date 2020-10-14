@@ -1,3 +1,20 @@
+body {
+    background-color: white;
+}
+
+#logo {
+    height: 100px;
+    width: 150px;
+    
+}
+
+header {
+    height: 120px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
 
 /*  --------------- Navbar Styling */
 
@@ -9,32 +26,60 @@
     color: #000;
 }
 
-body {
-    background-color: grey;
+
+
+/*  --------------- Hero Styling */
+
+#hero-text {
+    color: white;
+    margin-top: 40px;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px #1b1a1a;
 }
 
-#logo {
-    height: 100px;
-    width: 150px;
-    
-}
-
-#home-image {
+#hero-outer {
     height: 450px;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/home-image.jpeg") no-repeat center center;
+    background-size: cover;
+    /* animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;  */
 }
 
-#background-image-container {
 
-    height: 450px;
+  #hero-overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
     width: 100%;
-    padding: 0;
-    margin: 0;
+  }
+
+.hero-btn-container {
+    margin-top: 40px;
 }
 
-header {
-    height: 120px;
-    background-color: white;
-    padding: 0;
-    margin: 0;
+
+#hero-btn-quote {
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(46, 46, 46);
+    background-color: #B89F91
 }
+
+#hero-btn-services {
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(46, 46, 46);
+    background-color: #DCA518;
+}
+
+
+
+
+
