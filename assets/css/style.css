@@ -79,7 +79,18 @@ header {
     background-color: #DCA518;
 }
 
+@media (min-width: 576px) {
+    .float-left-md {
+      float: left;
+    }
+  }
 
+  @media (max-width: 576px) {
+    #hero-btn-services, #hero-btn-quote {
+        height: 45px;
+        width: 140px;
+    }
+  }
 
 
 
