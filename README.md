@@ -69,7 +69,7 @@ INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
 
 #### Wireframe designs
 
-- Home
+- Home  - [Desktop](https://ibb.co/27K6Jd9)- ![Desktop - Home Image](https://i.ibb.co/27K6Jd9/Screen-Shot-2020-10-27-at-09-16-11.png "Desktop - Home Page")
 - About
 - Services
 - Gallery
