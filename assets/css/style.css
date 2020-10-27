@@ -147,7 +147,63 @@ header {
 }
 
 @media (max-width: 768px) {
-    .contact-end-break {
+    .large-only {
         display: none;
     }
+}
+
+/*  --------------- BUSINESS INFO & TESTIMONIALS */
+
+
+
+#business-info-testimonials-wrap {
+    margin-top: 20px;
+}
+
+#testimonial-header {
+    margin-left: 16px;
+}
+
+#testimonial {
+    margin-left: 40px;
+}
+
+#experience-header {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.experience-images {
+    height: 90%;
+    width: 90%;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+.image-wrap {
+    margin-bottom: 20px;
+}
+
+.v-line {
+    border-left: 2px solid #B89F91;
+    height: 200px;
+    left: 50%;
+    margin-left: -2px;
+    position: relative;
+    z-index: 2;
+    bottom: 205px;
+}
+
+.v-line-small {
+    border-left: 2px solid #DCA518;
+    height: 130px;
+    left: 53%;
+    margin-left: -2px;
+    position: relative;
+    z-index: 2;
+    bottom: 360px;
+}
+
+.business-info {
+    margin-bottom: 25px;
 }
