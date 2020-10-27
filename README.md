@@ -69,14 +69,23 @@ INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
 
 #### Wireframe designs
 
-- Home  - [Desktop](https://ibb.co/27K6Jd9)- ![Desktop - Home Image](https://i.ibb.co/27K6Jd9/Screen-Shot-2020-10-27-at-09-16-11.png "Desktop - Home Page")
-- About
-- Services
-- Gallery
-- Contact
-- Get a quote form - pop up form
+- Desktop Wireframes 
 
-include wireframes links, mockups, diagrams - design process from figma.com  https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/Dean-Website?node-id=0%3A1
+![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Desktop%20screenshot.png "Desktop - Wireframe screenshot")
+
+- Tablet Wireframes 
+
+![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Tablet%20screenshot.png "Tablet - Wireframe screenshot")
+
+- Mobile Wireframes 
+
+![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Mobile%20screenshot.png "Mobile - Wireframe screenshot")
+
+- 'Get a Quote' pop up form Wireframe 
+
+![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Get%20a%20quote%20popup.png "Form - Wireframe screenshot")
+
+Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/Dean-Website?node-id=0%3A1
 
 -----
 
