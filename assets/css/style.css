@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 120px;
+    height: 10%;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -38,7 +38,7 @@ header {
 }
 
 #hero-outer {
-    height: 450px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -85,12 +85,32 @@ header {
     }
   }
 
+ @media (max-width: 768px) {
+      #hero-text {
+        font-size: 47px;
+    }
+ }
+
+  @media (max-width: 992px) {
+      #hero-text {
+        font-size: 48px;
+    }
+ }
+
   @media (max-width: 576px) {
     #hero-btn-services, #hero-btn-quote {
         height: 45px;
         width: 140px;
     }
+      #hero-text {
+        font-size: 46px;
+        text-align: center;
+    }
   }
 
-
+ @media (max-width: 420px) {
+      #hero-text {
+        font-size: 40px;
+    }
+ }
 
