@@ -114,3 +114,40 @@ header {
     }
  }
 
+/*  --------------- Contact Styling */
+
+.contact-info {
+    min-height: 80px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.telephone-info {
+    justify-content: center;
+}
+
+.vertical-responsive-break {
+     border: 1px solid #B89F91;
+}
+
+.contact-end-break {
+      border: 1px solid #B89F91;
+}
+
+@media (max-width: 440px) {
+    #quote-statement {
+      display: none;
+    }
+  }
+
+@media (min-width: 768px) {
+    .vertical-responsive-break {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-end-break {
+        display: none;
+    }
+}
