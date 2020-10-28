@@ -205,6 +205,27 @@ header {
    font-size: 0.8rem;
 }
 
+/*  --------------- About me */
+
+.about-me-outer {
+    padding: 20px;
+}
+
+.about-me-outer img {
+    padding: 20px;
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.keyword-border-left {
+    border-left: 2px solid #B89F91;
+}
+
+.keyword-border-right {
+    border-right: 2px solid #B89F91;
+}
 /* 
 Original code below was Flag Shape by Zoe Rooney 
 - I have edited to create desired shape
