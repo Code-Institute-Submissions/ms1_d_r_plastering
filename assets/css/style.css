@@ -16,6 +16,7 @@ header {
 }
 
 
+
 /*  --------------- Navbar Styling */
 
 .navbar-light .navbar-nav .nav-link {
@@ -130,7 +131,7 @@ header {
      border: 1px solid #B89F91;
 }
 
-.contact-end-break {
+.contact-break-end {
       border: 1px solid #B89F91;
 }
 
@@ -158,6 +159,7 @@ header {
 
 #business-info-testimonials-wrap {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #testimonial-header {
@@ -186,24 +188,47 @@ header {
 
 .v-line {
     border-left: 2px solid #B89F91;
-    height: 200px;
+    height: 230px;
     left: 50%;
+    bottom: -38%;
     margin-left: -2px;
-    position: relative;
+    position: absolute;
     z-index: 2;
-    bottom: 205px;
 }
 
 .v-line-small {
     border-left: 2px solid #DCA518;
     height: 130px;
     left: 53%;
+    bottom: -30%;
     margin-left: -2px;
-    position: relative;
+    position: absolute;
     z-index: 2;
-    bottom: 360px;
 }
 
 .business-info {
     margin-bottom: 25px;
+}
+
+/*  --------------- FOOTER */
+
+/* used line-height values in footer and footer-text to verically align text content 
+- credit to stackoverflow support - 'Tom' 
+- https://stackoverflow.com/questions/16470382/footer-text-and-vertical-alignment-issue */
+
+footer {
+    background-color: #B89F91;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 30px;
+ 
 }
