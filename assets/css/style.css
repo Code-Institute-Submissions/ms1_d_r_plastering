@@ -16,7 +16,6 @@ header {
 }
 
 
-
 /*  --------------- Navbar Styling */
 
 .navbar-light .navbar-nav .nav-link {
@@ -27,7 +26,19 @@ header {
     color: #000;
 }
 
+/*  --------------- Header Styling */
 
+.header-outer {
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+}
+
+.header-outer div p {
+        color: white;
+        font-size: 2.5rem;
+        padding: 10px;
+    }
 
 /*  --------------- Hero Styling */
 
@@ -135,11 +146,18 @@ header {
       border: 1px solid #B89F91;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 768px) {
     #quote-statement {
       display: none;
     }
   }
+
+@media (max-width: 440px) {
+    #quote-statement-home {
+      display: none;
+    }
+  }
+
 
 @media (min-width: 768px) {
     .vertical-responsive-break {
@@ -210,6 +228,22 @@ header {
     margin-bottom: 25px;
 }
 
+/* Fixed 'Get a Quote' Button area */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#fixed-btn-quote {
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+    border: solid 1px rgb(46, 46, 46);
+    background-color: #DCA518;
+}
+
 /*  --------------- FOOTER */
 
 /* used line-height values in footer and footer-text to verically align text content 
@@ -231,4 +265,21 @@ footer {
     font-size: 0.8rem;
     line-height: 30px;
  
+}
+
+/* General Media Queries */
+
+@media (max-width: 768px) {
+    .md-above-only {
+        display: none;
+    }
+    .header-outer div p {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-outer div p {
+        font-size: 3rem;
+    }
 }
