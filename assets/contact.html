@@ -35,7 +35,7 @@
                     <div class="navbar-nav ">
                          <a class="nav-link active" href="index.html">Home |</a>
                          <a class="nav-link" href="services.html">Services |</a>
-                         <a class="nav-link" href="gallery.html">Gallery |</a>
+                         <a class="nav-link" href="#">Gallery |</a>
                          <a class="nav-link" href="about.html">About |</a>
                         <a class="nav-link" href="contact.html">Contact |</a>
                     </div>
@@ -43,26 +43,7 @@
             </div>
         </div>
     </nav>
-<!-- Contact Infomation --> 
- 
-    <section class="container-fluid">
-        <div class="container contact-info">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <p><strong>Call: Dean Rolls <i class="fas fa-phone"></i> </strong><br class="md-above-only"> 07957773568</p>
-                    <hr class="vertical-responsive-break">
-                </div>
-                <div class="col-md-6 text-center" id="quote-statement"> 
-                    <p><strong>GET A FREE, NO OBLIGATION QUOTE</strong></p>
-                    <p>If you have a project in mind, get in touch!</p>
-                    <hr class="vertical-responsive-break">
-                </div>
-                <div class="col-md-3 text-center">
-                    <p><strong>Email <i class="fas fa-envelope-open-text"></i></strong><br class="md-above-only"> deano120@hotmail.co.uk</p>
-                </div>
-            </div>
-        </div> 
-    </section>
+
 
 <!-- Header -->
 
@@ -70,48 +51,61 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-center justify-content-md-start"> 
-                    <p>About</p>
+                    <p id="contact-header">Contact</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center justify-content-md-start"> 
+                    <h5>Get In Touch With Us</h5>
                 </div>
             </div>
         </div>
     </header>
 
-<!-- About me Section -->
-    <section name="about-me">
-        <div class="container about-me-outer">
-            <div class="row">
-                <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quasi nemo possimus eaque tenetur est iusto, ad deserunt quibusdam placeat blanditiis harum unde eos ducimus iste soluta neque vero provident.
-                </p>
-                </div>
-                <div class="col-md-6">
-                <img src="./images/about-page-stock-image.jpeg" alt="man-plastering-photo">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center keyword-border-left">
-                    <p><strong>QUALITY</strong></p>
-                </div>
-                <div class="col keyword-border-left text-center">
-                    <p><strong>SAFETY</strong></p>    
-                </div>
-                <div class="col keyword-border-left keyword-border-right text-center">
-                    <p><strong>INTEGRITY</strong></p>
-                </div>
-            </div>
-        </div>
-    </section>
 
+<!-- Contact Section -->
+
+<!-- Contact Infomation --> 
+ 
+    <section class="container-fluid">
+        <div class="container contact-info">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img class="d-block mx-auto mx-md-0" id="logo-contact-page" src="images/DRLOGO.jpeg" alt="brand logo">
+                    <div id="contact-info-wrap">
+                        <p><strong><i class="fas fa-phone"></i></strong> 07957773568</p>
+                        <hr id="contact-box-hr">
+                        <p><strong><i class="fas fa-envelope-open-text"></i></strong> deano120@hotmail.co.uk</p>
+                    </div>
+                    <p id="response-time-statement">We aim to respond to all queries within 48 hours - Business Hours are 8-5pm Mon-Fri</p>
+                </div>
+                <div class="col-md-6 text-center" id="quote-form"> 
+                    <h6><strong>GET A FREE, NO OBLIGATION QUOTE</strong><h6>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" name="fname" id="fname" class="form-control" placeholder="First Name" required />
+                            <input type="text" name="lname" id="lname" class="form-control" placeholder="Last Name" required />
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                            <input type="text" name="service" id="service" class="form-control" placeholder="Service" required />
+                        </div>
+                        <div class="input-group">
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Summary of works" required style="margin-bottom: 10px"></textarea>
+                        </div>
+                        <input type="submit" value="Send Message" id="form-btn-submit">
+                        <p id="response-time-statement-small">We aim to respond to all queries within 48 hours - Business Hours are 8-5pm Mon-Fri</p>
+                    </form>
+                </div>
+               
+            </div>
+        </div> 
+    </section>
 
 <!-- Page Break -->
 
 <div id="flag"></div> 
-
-<!-- Get a Quote Button area -->
-
-    <div class="btn-container">
-    <button id="fixed-btn-quote">GET A QUOTE</button> 
-    </div>
+<div class="container white-space"></div>
  
 <!-- Footer -->
 

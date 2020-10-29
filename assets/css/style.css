@@ -1,10 +1,11 @@
 body {
     background-color: white;
+    margin: 0;
 }
 
 #logo {
     height: 100px;
-    width: 150px;
+    width: 140px;
     
 }
 
@@ -41,6 +42,23 @@ header {
         color: white;
         font-size: 2.5rem;
         padding: 10px;
+        margin: 0;
+    }
+
+#contact-header {
+        color: white;
+        font-size: 2.5rem;
+        padding: 10px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+.header-outer div h5 {
+        color: white;
+        font-size: 0.9rem;
+        padding: 12px;
+        margin: 0;
+        padding-top: 0;
     }
 
 /*  --------------- Hero Styling */
@@ -114,6 +132,69 @@ header {
       border: 1px solid #B89F91;
 }
 
+#logo-contact-page {
+    height: 90px;
+    width: 120px;
+}
+
+#contact-info-wrap {
+    border-top: 3px solid #DCA518;
+    border-bottom: 5px solid #707070;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    height: 17vh;
+    width: 40vh;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+#contact-box-hr {
+    width: 80%;
+}
+
+#quote-form {
+    margin-top: 20px;
+}
+
+#response-time-statement {
+    font-size: 0.7rem;
+    text-align: left;
+    display: block;
+}
+
+#response-time-statement-small {
+    font-size: 0.7rem;
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.white-space {
+    height: 50px;
+}
+
+/* ---Form Styling */
+
+.form-control {
+  background-color: rgb(235, 235, 235);
+  margin: 10px;
+}
+
+.form-control:valid {
+  background-color:  rgba(220, 165, 24, 0.5)!important;
+}
+
+#form-btn-submit {
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    border: solid 1px rgb(46, 46, 46);
+    background-color: #DCA518;
+}
+
 /*  --------------- BUSINESS INFO & TESTIMONIALS */
 
 
@@ -151,7 +232,7 @@ header {
     border-left: 2px solid #B89F91;
     height: 230px;
     left: 50%;
-    bottom: -38%;
+    bottom: -1%;
     margin-left: -2px;
     position: absolute;
     z-index: 2;
@@ -161,7 +242,7 @@ header {
     border-left: 2px solid #DCA518;
     height: 130px;
     left: 53%;
-    bottom: -30%;
+    bottom: 0;
     margin-left: -2px;
     position: absolute;
     z-index: 2;
@@ -299,7 +380,7 @@ footer {
 /* General Media Queries */
 
 @media (min-width: 768px) {
-    .vertical-responsive-break {
+    .vertical-responsive-break, #response-time-statement-small {
         display: none;
     }
 }
@@ -345,7 +426,7 @@ footer {
         text-align: center;
         font-size: 0.9rem;
     }
-    .large-only {
+    .large-only, #response-time-statement {
         display: none;
     }
     .md-sm-only {
@@ -372,6 +453,11 @@ footer {
     #services-container img, #gallery img {
         height: 60vh;
         width: 100%;
+    }
+    #contact-info-wrap, #quote-form {
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
 }
 
