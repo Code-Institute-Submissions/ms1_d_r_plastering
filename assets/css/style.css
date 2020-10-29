@@ -94,7 +94,7 @@ header {
 }
 
 
-#hero-btn-quote {
+.hero-btn {
     height: 60px;
     width: 120px;
     font-size: 18px;
@@ -104,12 +104,11 @@ header {
 }
 
 #hero-btn-services {
-    height: 60px;
-    width: 120px;
-    font-size: 18px;
-    border-radius: 10px;
-    border: solid 1px rgb(46, 46, 46);
     background-color: #DCA518;
+}
+
+button:focus {
+    outline: 0;
 }
 
 /*  --------------- Contact Styling */
@@ -142,8 +141,8 @@ header {
     border-bottom: 5px solid #707070;
     border-left: 1px solid #707070;
     border-right: 1px solid #707070;
-    height: 17vh;
-    width: 40vh;
+    height: 130px;
+    width: 270px;
     padding: 15px;
     margin: 20px;
     margin-left: 0px;
@@ -183,9 +182,9 @@ header {
   margin: 10px;
 }
 
-.form-control:valid {
+/* .form-control:valid {
   background-color:  rgba(220, 165, 24, 0.5)!important;
-}
+} */
 
 #form-btn-submit {
     height: 40px;
@@ -197,7 +196,9 @@ header {
 
 /*  --------------- BUSINESS INFO & TESTIMONIALS */
 
-
+.business-info {
+    border-right: 2px solid #B89F91;
+}
 
 #business-info-testimonials-wrap {
     margin-top: 20px;
@@ -210,6 +211,8 @@ header {
 
 #testimonial {
     margin-left: 40px;
+    border-left: 2px solid #DCA518;
+    padding-left: 15px;
 }
 
 #experience-header {
@@ -226,26 +229,6 @@ header {
 
 .image-wrap {
     margin-bottom: 20px;
-}
-
-.v-line {
-    border-left: 2px solid #B89F91;
-    height: 230px;
-    left: 50%;
-    bottom: -1%;
-    margin-left: -2px;
-    position: absolute;
-    z-index: 2;
-}
-
-.v-line-small {
-    border-left: 2px solid #DCA518;
-    height: 130px;
-    left: 53%;
-    bottom: 0;
-    margin-left: -2px;
-    position: absolute;
-    z-index: 2;
 }
 
 .business-info {
@@ -404,7 +387,7 @@ footer {
 }
 
 @media (max-width: 576px) {
- #hero-btn-services, #hero-btn-quote {
+      .hero-btn, #hero-btn-quote {
         height: 45px;
         width: 140px;
     }
@@ -429,6 +412,10 @@ footer {
     .large-only, #response-time-statement {
         display: none;
     }
+
+    .business-info {
+    border-right: none;
+}
     .md-sm-only {
         display: block;
     }
