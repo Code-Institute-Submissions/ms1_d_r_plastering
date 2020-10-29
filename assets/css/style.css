@@ -107,8 +107,15 @@ header {
     background-color: #DCA518;
 }
 
+
+/*  --------------- Modal Styling */
+
 button:focus {
     outline: 0;
+}
+
+#modal-btn-send {
+    background-color: #DCA518;
 }
 
 /*  --------------- Contact Styling */
@@ -165,9 +172,8 @@ button:focus {
 
 #response-time-statement-small {
     font-size: 0.7rem;
-    text-align: left;
+    text-align: center;
     display: block;
-    margin-top: 20px;
 }
 
 
@@ -182,16 +188,13 @@ button:focus {
   margin: 10px;
 }
 
-/* .form-control:valid {
-  background-color:  rgba(220, 165, 24, 0.5)!important;
-} */
-
 #form-btn-submit {
     height: 40px;
     width: 120px;
     font-size: 15px;
     border: solid 1px rgb(46, 46, 46);
     background-color: #DCA518;
+    margin-bottom: 10px;
 }
 
 /*  --------------- BUSINESS INFO & TESTIMONIALS */
@@ -304,6 +307,16 @@ button:focus {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+
+/* ------Response.html */
+
+#thankyou-message {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
 
 /* 
 Original code below was Flag Shape by Zoe Rooney 
