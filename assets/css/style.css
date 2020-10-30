@@ -70,6 +70,13 @@ header {
     text-shadow: 2px 2px 3px #1b1a1a;
 }
 
+#hero-text-small {
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #1b1a1a;
+}
+
 #hero-outer {
     height: 400px;
     width: 100%;
@@ -308,6 +315,29 @@ button:focus {
     margin-bottom: 20px;
 }
 
+/*----Map styling */
+
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:300px;
+    width:100%;
+    margin-bottom: 40px;
+    }
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+    }
+
+iframe {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
 
 /* ------Response.html */
 
@@ -408,6 +438,10 @@ footer {
         font-size: 46px;
         text-align: center;
     }
+
+    #hero-text-small {
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -424,6 +458,13 @@ footer {
     }
     .large-only, #response-time-statement {
         display: none;
+    }
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:300px;
+        width:80%;
+        margin-bottom: 40px;
     }
 
     .business-info {
