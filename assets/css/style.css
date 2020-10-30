@@ -219,15 +219,15 @@ button:focus {
     margin-left: 16px;
 }
 
-#testimonial {
+.testimonial {
     margin-left: 40px;
     border-left: 2px solid #DCA518;
     padding-left: 15px;
 }
 
 #experience-header {
-    margin-left: 20px;
-    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .experience-images {
