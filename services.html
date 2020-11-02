@@ -113,9 +113,52 @@
     <!--********PAGE BREAK********-->
     <div id="flag"></div> 
 
-    <!--********GET A QUOTE BUTTON FIXED********-->
+    <!--********GET A QUOTE BUTTON FIXED & MODAL 
+    MODAL CODE - MDBOOTSTRAP********-->
+                        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <form method="get" action="response.html">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+                                            <h4 class="modal-title w-100 font-weight-bold">Get In Touch With Us</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body mx-3">
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-user prefix grey-text"></i>
+                                                <input type="text" id="form34" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-envelope prefix grey-text"></i>
+                                                <input type="email" id="form29" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-phone prefix grey-text"></i>
+                                                <input type="text" id="form30" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form30">Your Phone Number</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-tag prefix grey-text"></i>
+                                                <input type="text" id="form32" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form32">Service Required</label>
+                                            </div>
+                                            <div class="md-form">
+                                                <i class="fas fa-pencil prefix grey-text"></i>
+                                                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                                                <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn" id="modal-btn-send">Send </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
     <div class="btn-container">
-        <button id="fixed-btn-quote">GET A QUOTE</button> 
+        <button id="fixed-btn-quote" data-toggle="modal" data-target="#modalContactForm">GET A QUOTE</button> 
     </div>
  
     <!--********FOOTER********-->
