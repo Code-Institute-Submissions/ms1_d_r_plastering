@@ -46,16 +46,38 @@ This project will focus on the creation of a real-life purpose built webpage for
 
 Further research was conducted to understand how similar businesses present themselves on the internet, this information was used to aid my decisions when deciding the site layout, fonts, colors and general look and feel of the site.
 
+#### Design Process
+
+I began to outline the content requirements for the site based on the research I had conducted and thought about the best way for a user to navigate through this content. Taking this approach I decided on seperate pages for content, linked together through a navbar and various call to action buttons throughout the site. The pages I decided to develop were: Home, Services, Gallery, About, Contact.
+
+The home page, as a landing page for the site needed to contain clear content highlighting the key areas of the site a user may require. With this in mind, I would nest two buttons within the hero image, addressing the most popular two actions expected to be executed by users.
+
+1. To view 'services'
+2. To 'get a quote'
+
+I began developing a wireframe design using Figma. 
+
+I started with a single home page design, worked on developing a page structure which would support the requirements of the home page.
+
+All pages apart from the home page, have adopted a similar page structure with content following a page header - detailing to the user which page they are currently viewing. This design choice supports the user experience, make it easier to navigate the site and provides visual feedback to the user.
+
+Once all wireframes were developed for viewing in a browser at 1440 x 1024. I worked to create seperate wireframes for both tablet and mobile screen sizes. This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
+
+
+
+
+
 #### Colours
 
 A palette of four colours were chosen for use accross the site. Each color compliments each other and the images used to display purpose to the business. The colours are able to be used to create contrast between each other and continuity between pages.
 
-Color Palette (insert below) - 
+Color Palette - Three main obvious colors compliment the design of the site. These are displayed below:
 
-colour 1
-colour 2
-colour 3
-colour 4
+- ![#b89f91](https://via.placeholder.com/15/b89f91/000000?text=+) `#b89f91` - Logo & Buttons
+- ![#dca518](https://via.placeholder.com/15/dca518/000000?text=+) `#dca518` - Page breaks and footer
+- ![#707070](https://via.placeholder.com/15/707070/000000?text=+) `#707070`- Page header
+
+Various other shades of grey are used appropriately, to highlight, surround and drop shadows on elements to support the sign design and ease of navigation.
 
 #### Sections
 
@@ -85,7 +107,7 @@ INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
 
 ![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Get%20a%20quote%20popup.png "Form - Wireframe screenshot")
 
-Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/Dean-Website?node-id=0%3A1
+Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1
 
 -----
 
