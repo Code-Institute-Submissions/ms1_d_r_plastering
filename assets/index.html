@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +14,20 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 <!--Manual CSS -->
     <link rel="stylesheet" href="css/style.css">
-
     <title>Document</title>
 </head>
+
 <body>
-    <!-- Logo --> 
+    <!--********LOGO/NAVBAR********--> 
     <header class="logo-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                     <img class="d-block mx-auto mx-md-0" id="logo" src="images/DRLOGO.jpeg" alt="brand logo"> 
+                     <img class="d-block mx-auto mx-md-0" id="logo" src="images/DRLOGO.jpeg" alt="company logo"> 
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Navbar -->
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
        
@@ -51,9 +50,8 @@
         </div>
     </nav>
 
-    <!-- Hero Landing -->
- 
-    <section id="hero-outer">
+    <!--********HERO LANDING********-->
+    <section id="hero">
         <div id="hero-overlay" class="container-fluid">
             <div id="hero-content" class="container">
                 <div class="row">
@@ -68,72 +66,60 @@
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
 
-                    <!--MODAL CODE - MDBOOTSTRAP-->
-                    
+                    <!--********MODAL CODE - MDBOOTSTRAP********-->
                         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            
                             <div class="modal-dialog" role="document">
-                            <form method="get" action="response.html">
-                                <div class="modal-content">
-                                <div class="modal-header text-center">
-                                    <h4 class="modal-title w-100 font-weight-bold">Get In Touch With Us</h4>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body mx-3">
-                                    <div class="md-form mb-5">
-                                    <i class="fas fa-user prefix grey-text"></i>
-                                    <input type="text" id="form34" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                                <form method="get" action="response.html">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+                                            <h4 class="modal-title w-100 font-weight-bold">Get In Touch With Us</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body mx-3">
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-user prefix grey-text"></i>
+                                                <input type="text" id="form34" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-envelope prefix grey-text"></i>
+                                                <input type="email" id="form29" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-phone prefix grey-text"></i>
+                                                <input type="text" id="form30" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form30">Your Phone Number</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fas fa-tag prefix grey-text"></i>
+                                                <input type="text" id="form32" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="form32">Service Required</label>
+                                            </div>
+                                            <div class="md-form">
+                                                <i class="fas fa-pencil prefix grey-text"></i>
+                                                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                                                <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn" id="modal-btn-send">Send </button>
+                                        </div>
                                     </div>
-                                    <div class="md-form mb-5">
-                                    <i class="fas fa-envelope prefix grey-text"></i>
-                                    <input type="email" id="form29" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form29">Your email</label>
-                                    </div>
-                                    <div class="md-form mb-5">
-                                    <i class="fas fa-phone prefix grey-text"></i>
-                                    <input type="text" id="form30" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form30">Your Phone Number</label>
-                                    </div>
-
-                                    <div class="md-form mb-5">
-                                    <i class="fas fa-tag prefix grey-text"></i>
-                                    <input type="text" id="form32" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form32">Service Required</label>
-                                    </div>
-
-                                    <div class="md-form">
-                                    <i class="fas fa-pencil prefix grey-text"></i>
-                                    <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-                                    <label data-error="wrong" data-success="right" for="form8">Your message</label>
-                                    </div>
-
-                                </div>
-                                
-                                <div class="modal-footer d-flex justify-content-center">
-                                    <button class="btn" id="modal-btn-send">Send </button>
-                                </div>
-                                </div>
-                             </form>
-                            </div>
-                            
-                            </div>
-                          
-                            <div class="text-center">
-                            <button class="float-left-md hero-btn" id="hero-btn-quote" data-toggle="modal" data-target="#modalContactForm">GET A QUOTE</button> 
+                                </form>
                             </div>
                         </div>
-                   
+                        <div class="text-center">
+                            <button class="float-left-md hero-btn" id="hero-btn-quote" data-toggle="modal" data-target="#modalContactForm">GET A QUOTE</button> 
+                        </div>
+                    </div>
                 </div>
             </div>  
         </div>
     </section>
 
- <!-- Contact Infomation --> 
- 
-    <section class="container-fluid">
+    <!--********CONTACT INFORMATION********--> 
+    <section id="contact-information" class="container-fluid">
         <div class="container contact-info">
             <div class="row">
                 <div class="col-md-3 text-center">
@@ -156,9 +142,8 @@
     </section>
     <hr class=" contact-break-end large-only">
 
-    <!-- Business info + testimonials -->
-
-   <div id="business-info-testimonials-wrap">
+    <!--********BUSINESS INFO & TESTIMONIALS********-->
+    <div id="business-info-testimonials-wrap">
         <div class="container"> 
             <div class="row">
                 <div class="col-md-6 business-info">
@@ -176,9 +161,8 @@
                 <div class="col-md-6 testimonials">
                     <h5 id="testimonial-header">Testimonials</h5>
 
-                    <!-- Bootstrap Carousel - for testimonials -->
-
-                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                    <!--********CAROUSEL-TESTIMONIALS********-->
+                    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <p class="testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, provident iusto. Odit aspernatur cupiditate maxime deleniti ab sunt hic, necessitatibus quis, ea aliquid cumque soluta dolor quod unde illo ullam.</p>
@@ -191,16 +175,12 @@
                             </div>
                         </div>
                     </div>
-
-                    <!------------------------------------------>
-
                 </div>
             </div> 
         </div>
     </div>
    
-    <!-- Business info + testimonials -->
- 
+    <!--********FOOTER********-->
     <footer>
         <div>
             <p class="footer-text">Copyright - Jamie Rolls - 2020</p>

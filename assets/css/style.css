@@ -76,7 +76,7 @@ body {
     text-shadow: 2px 2px 3px #1b1a1a;
 }
 
-#hero-outer {
+#hero {
     height: 400px;
     width: 100%;
     overflow: hidden;
@@ -411,7 +411,7 @@ footer {
 }
 
 @media (max-width: 420px) {
-      #hero-text {
+    #hero-text {
         font-size: 40px;
     }
 }
