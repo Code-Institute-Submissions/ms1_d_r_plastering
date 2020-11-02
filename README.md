@@ -42,11 +42,9 @@ This project will focus on the creation of a real-life purpose built webpage for
 
 -----
 
-### Design Choices
+### Design Process
 
 Further research was conducted to understand how similar businesses present themselves on the internet, this information was used to aid my decisions when deciding the site layout, fonts, colors and general look and feel of the site.
-
-#### Design Process
 
 I began to outline the content requirements for the site based on the research I had conducted and thought about the best way for a user to navigate through this content. Taking this approach I decided on seperate pages for content, linked together through a navbar and various call to action buttons throughout the site. The pages I decided to develop were: Home, Services, Gallery, About, Contact.
 
@@ -59,59 +57,11 @@ I began developing a wireframe design using Figma.
 
 I started with a single home page design, worked on developing a page structure which would support the requirements of the home page.
 
-All pages apart from the home page, have adopted a similar page structure with content following a page header - detailing to the user which page they are currently viewing. This design choice supports the user experience, make it easier to navigate the site and provides visual feedback to the user.
-
-Once all wireframes were developed for viewing in a browser at 1440 x 1024. I worked to create seperate wireframes for both tablet and mobile screen sizes. This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
-
-
-
-
-
-#### Colours
-
-A palette of four colours were chosen for use accross the site. Each color compliments each other and the images used to display purpose to the business. The colours are able to be used to create contrast between each other and continuity between pages.
-
-Color Palette - Three main obvious colors compliment the design of the site. These are displayed below:
-
-- ![#b89f91](https://via.placeholder.com/15/b89f91/000000?text=+) `#b89f91` - Logo & Buttons
-- ![#dca518](https://via.placeholder.com/15/dca518/000000?text=+) `#dca518` - Page breaks and footer
-- ![#707070](https://via.placeholder.com/15/707070/000000?text=+) `#707070`- Page header
-
-Various other shades of grey are used appropriately, to highlight, surround and drop shadows on elements to support the sign design and ease of navigation.
-
-#### Sections
+#### Page Structure
 
 I wanted the site to remain simple and easy to navigate, therefore the use of sections were kept to a minimum on each page. Most of the pages remain viewable in full without scrolling when using a desktop device. The reason for this design choice, is to acheive the purpose set out to make the user experience quick and easy to locate the information they require.
 
-#### Font
-
-INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
-
------
-
-#### Wireframe designs
-
-- Desktop Wireframes 
-
-![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Desktop%20screenshot.png "Desktop - Wireframe screenshot")
-
-- Tablet Wireframes 
-
-![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Tablet%20screenshot.png "Tablet - Wireframe screenshot")
-
-- Mobile Wireframes 
-
-![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Mobile%20screenshot.png "Mobile - Wireframe screenshot")
-
-- 'Get a Quote' pop up form Wireframe 
-
-![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Get%20a%20quote%20popup.png "Form - Wireframe screenshot")
-
-Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1
-
------
-
-# Features
+All pages apart from the home page, have adopted a similar page structure with content following a page header - detailing to the user which page they are currently viewing. This design choice supports the user experience, make it easier to navigate the site and provides visual feedback to the user.
 
 A fixed responsive navbar will be at the top of each page - which consists of two sections. 
 1. The top section will contain logo, which will be justified (top left) apart from on mobile devices, where logo will rejustify to the center of the display.
@@ -138,3 +88,86 @@ The About page will consist of four sections, no scrolling will be required to v
 ### Contact
 
 The Contact page will consist of two sections. The first section will consist of three elements. A section header, a contact information box and the contact form. On desktop views the contact information box will be justified left and the contact form to the right. On tablet and mobile, both will be centralised on the page, contact details followed by the contact form directly below. The second section will retail the same container space as used on the *About*, *Gallery* & *Services* pages, but in absence of the call to action button, as it is not required on this page.
+
+#### Responsive Design
+
+Once all wireframes were developed for viewing in a browser at 1440 x 1024. I worked to create seperate wireframes for both tablet and mobile screen sizes. This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
+
+### Design Choices
+
+#### Colours
+
+A palette of four colours were chosen for use accross the site. Each color compliments each other and the images used to display purpose to the business. The colours are able to be used to create contrast between each other and continuity between pages.
+
+Color Palette - Three main obvious colors compliment the design of the site. These are displayed below:
+
+- ![#b89f91](https://via.placeholder.com/15/b89f91/000000?text=+) `#b89f91` - Logo & Buttons
+- ![#dca518](https://via.placeholder.com/15/dca518/000000?text=+) `#dca518` - Page breaks and footer
+- ![#707070](https://via.placeholder.com/15/707070/000000?text=+) `#707070`- Page header
+
+Various other shades of grey are used appropriately, to highlight, surround and drop shadows on elements to support the sign design and ease of navigation.
+
+#### Font
+
+INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
+
+-----
+
+### Wireframe designs
+
+- Desktop Wireframes 
+
+![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Desktop%20screenshot.png "Desktop - Wireframe screenshot")
+
+- Tablet Wireframes 
+
+![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Tablet%20screenshot.png "Tablet - Wireframe screenshot")
+
+- Mobile Wireframes 
+
+![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Mobile%20screenshot.png "Mobile - Wireframe screenshot")
+
+- 'Get a Quote' pop up form Wireframe 
+
+![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Get%20a%20quote%20popup.png "Form - Wireframe screenshot")
+
+Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1
+
+### Changes In Functionality / Design
+
+I have since decided to use a modal for the pop up form (Get a Quote) - it does not adopt the design from the wireframe above. 
+
+It was decided that the 'get a quote' form was to be different from the contact us form. As they serve two different purposes.
+
+Multiple Testimonials were added to the page - using a Bootstrap carousel - this will support user confidence in the business.
+
+-----
+
+### Technologies
+
+1. HTML
+2. CSS
+3. Bootstrap (4.5.2) - with supporting JS Script and tooltips
+4. Font Awesome (5.15.1)
+5. MD Bootstrap (4.19.1) - with supporting JS Script
+6. JQuery (3.5.1)
+
+---
+
+# Features
+
+The site uses Bootstrap to create a collapsed navbar on small devices. This enables users to view more relevant content on smaller screens, with the option to expand the navbar if required.
+
+A modal form is viewable upon clicking the 'get a quote' button on any page. Although not functioning as a form currently, for design purposes and to demonstrate the user journey it is linked to a response page. This provides feeback to the user, once data is submitted using the form. The same response page is linked to the contact form (viewable on contact.html page). The modal form was acheived by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
+
+An automated scrolling testimonal section is displayed on the home page. This is acheived using supporting code from the Bootstrap carousel component. https://getbootstrap.com/docs/4.0/components/carousel/
+
+# Future Features
+
+I would like to add functionality for the business to be able to update their Gallery images, with current completed projects. This would need to be via an intuitive user friendly approach, with no knowledge of coding and would require other technologies not currently used in this project.
+
+I would also like to add more functionality to the services page, enabling the user to click the images on the services page to view more images relating only to that specific service.
+
+I also wish to animate the buttons used throughout the site, to provide visual feedback to users when they are interacting with button elements.
+
+## Testing
