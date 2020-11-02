@@ -340,6 +340,10 @@ iframe {
     margin: 0 auto;
 }
 
+.white-space-small {
+    height: 30px;
+}
+
 /* 
 Original code below was Flag Shape by Zoe Rooney 
 - I have edited to create desired shape
