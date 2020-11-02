@@ -3,13 +3,14 @@ body {
     margin: 0;
 }
 
+/*---------- Logo & Navbar Styling ----------*/
+
 #logo {
     height: 100px;
     width: 140px;
-    
 }
 
-header {
+.logo-container {
     height: 10%;
     background-color: white;
     padding: 0;
@@ -20,8 +21,6 @@ header {
     display: none;
 }
 
-/*  --------------- Navbar Styling */
-
 .navbar-light .navbar-nav .nav-link {
     color: rgb(47 47 47 / 80%);
 }
@@ -30,7 +29,7 @@ header {
     color: #000;
 }
 
-/*  --------------- Header Styling */
+/*---------- Header Styling ----------*/
 
 .header-outer {
     background-color: #707070;
@@ -39,29 +38,29 @@ header {
 }
 
 .header-outer div p {
-        color: white;
-        font-size: 2.5rem;
-        padding: 10px;
-        margin: 0;
-    }
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 0;
+}
 
 #contact-header {
-        color: white;
-        font-size: 2.5rem;
-        padding: 10px;
-        padding-bottom: 0;
-        margin: 0;
-    }
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
 
 .header-outer div h5 {
-        color: white;
-        font-size: 0.9rem;
-        padding: 12px;
-        margin: 0;
-        padding-top: 0;
-    }
+    color: white;
+    font-size: 0.9rem;
+    padding: 12px;
+    margin: 0;
+    padding-top: 0;
+}
 
-/*  --------------- Hero Styling */
+/*---------- Hero Styling ----------*/
 
 #hero-text {
     color: white;
@@ -84,29 +83,24 @@ header {
     position: relative;
     background: url("../images/home-image.jpeg") no-repeat center center;
     background-size: cover;
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;  */
 }
 
-
-  #hero-overlay {
+#hero-overlay {
     background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
-  }
+}
 
 .hero-btn-container {
     margin-top: 40px;
 }
-
 
 .hero-btn {
     height: 60px;
     width: 120px;
     font-size: 18px;
     border-radius: 10px;
-    border: solid 1px rgb(46, 46, 46);
+    border: solid 1px #2e2e2e;
     background-color: #B89F91
 }
 
@@ -114,8 +108,7 @@ header {
     background-color: #DCA518;
 }
 
-
-/*  --------------- Modal Styling */
+/*---------- Modal Styling ----------*/
 
 button:focus {
     outline: 0;
@@ -125,7 +118,48 @@ button:focus {
     background-color: #DCA518;
 }
 
-/*  --------------- Contact Styling */
+/*---------- Business info & Testimonials Section ----------*/
+
+.business-info {
+    border-right: 2px solid #B89F91;
+}
+
+#business-info-testimonials-wrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#testimonial-header {
+    margin-left: 16px;
+}
+
+.testimonial {
+    margin-left: 40px;
+    border-left: 2px solid #DCA518;
+    padding-left: 15px;
+}
+
+#experience-header {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.experience-images {
+    height: 90%;
+    width: 90%;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+.image-wrap {
+    margin-bottom: 20px;
+}
+
+.business-info {
+    margin-bottom: 25px;
+}
+
+/*---------- Contact Page Styling ----------*/
 
 .contact-info {
     min-height: 80px;
@@ -183,15 +217,14 @@ button:focus {
     display: block;
 }
 
-
 .white-space {
     height: 50px;
 }
 
-/* ---Form Styling */
+/*---------- Contact Form Styling ----------*/
 
 .form-control {
-  background-color: rgb(235, 235, 235);
+  background-color: #ebebeb;
   margin: 10px;
 }
 
@@ -199,53 +232,12 @@ button:focus {
     height: 40px;
     width: 120px;
     font-size: 15px;
-    border: solid 1px rgb(46, 46, 46);
+    border: solid 1px #2e2e2e;
     background-color: #DCA518;
     margin-bottom: 10px;
 }
 
-/*  --------------- BUSINESS INFO & TESTIMONIALS */
-
-.business-info {
-    border-right: 2px solid #B89F91;
-}
-
-#business-info-testimonials-wrap {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#testimonial-header {
-    margin-left: 16px;
-}
-
-.testimonial {
-    margin-left: 40px;
-    border-left: 2px solid #DCA518;
-    padding-left: 15px;
-}
-
-#experience-header {
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.experience-images {
-    height: 90%;
-    width: 90%;
-    margin: 15px;
-    border-radius: 10%;
-}
-
-.image-wrap {
-    margin-bottom: 20px;
-}
-
-.business-info {
-    margin-bottom: 25px;
-}
-
-/* Fixed 'Get a Quote' Button area */
+/*---------- Fixed 'Get a Quote' Button area ----------*/
 
 .btn-container {
     display: flex;
@@ -257,29 +249,30 @@ button:focus {
     height: 60px;
     width: 120px;
     font-size: 15px;
-    border: solid 1px rgb(46, 46, 46);
+    border: solid 1px #2e2e2e;
     background-color: #DCA518;
 }
 
-/*  --------------- Services */
+/*---------- Services Page ----------*/
+
 #services-container {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
- #services-container img {
+#services-container img {
     width: 100%;
     height: 35vh;
     object-fit: cover;
     margin-bottom: 20px;
 }
 
- #services-container p {
+#services-container p {
    font-size: 0.8rem;
 }
 
-/*  --------------- About me */
+/*---------- About Page ----------*/
 
 .about-me-outer {
     padding: 20px;
@@ -301,7 +294,7 @@ button:focus {
     border-right: 2px solid #B89F91;
 }
 
-/*  --------------- Gallery*/
+/*---------- Gallery Page ----------*/
 
 .gallery-container {
     padding: 20px;
@@ -315,7 +308,7 @@ button:focus {
     margin-bottom: 20px;
 }
 
-/*----Map styling */
+/*---------- Map styling -----------*/
 
 .mapouter{
     position:relative;
@@ -323,14 +316,14 @@ button:focus {
     height:300px;
     width:100%;
     margin-bottom: 40px;
-    }
+}
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:100%;
     width:100%;
-    }
+}
 
 iframe {
     height: 100%;
@@ -339,14 +332,13 @@ iframe {
 }
 
 
-/* ------Response.html */
+/*---------- Form Response Page ----------*/
 
 #thankyou-message {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
 }
-
 
 /* 
 Original code below was Flag Shape by Zoe Rooney 
@@ -356,31 +348,32 @@ https://css-tricks.com/the-shapes-of-css/#flag-shape-via-zoe-rooney
 */
 
 #flag {
-      width: 100%;
-      height: 13px;
-      box-sizing: content-box;
-      padding-top: 10px;
-      position: relative;
-      background: #B89F91;
-      color: white;
-      font-size: 11px;
-      letter-spacing: 0.2em;
-      text-align: center;
-      text-transform: uppercase;
-    }
-    #flag:after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 0;
-      height: 0;
-      border-bottom: 20px solid rgb(255, 255, 255);
-      border-left: 50vw solid transparent;
-      border-right: 50vw solid transparent;
-    }
+    width: 100%;
+    height: 13px;
+    box-sizing: content-box;
+    padding-top: 10px;
+    position: relative;
+    background: #B89F91;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
 
-/*  --------------- FOOTER */
+#flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #ffffff;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+}
+
+/*---------- Footer ----------*/
 
 /* used line-height values in footer and footer-text to verically align text content 
 - credit to stackoverflow support - 'Tom' 
@@ -403,7 +396,7 @@ footer {
  
 }
 
-/* General Media Queries */
+/*---------- Media Queries ----------*/
 
 @media (min-width: 768px) {
     .vertical-responsive-break, #response-time-statement-small {
@@ -430,15 +423,14 @@ footer {
 }
 
 @media (max-width: 576px) {
-      .hero-btn, #hero-btn-quote {
+    .hero-btn, #hero-btn-quote {
         height: 45px;
         width: 140px;
     }
-      #hero-text {
+    #hero-text {
         font-size: 46px;
         text-align: center;
     }
-
     #hero-text-small {
         text-align: center;
     }
@@ -466,10 +458,9 @@ footer {
         width:80%;
         margin-bottom: 40px;
     }
-
     .business-info {
     border-right: none;
-}
+    }
     .md-sm-only {
         display: block;
     }
@@ -490,6 +481,7 @@ footer {
         font-size: 48px;
     }    
 }
+
 @media (max-width: 768px) {
     #services-container img, #gallery img {
         height: 60vh;
