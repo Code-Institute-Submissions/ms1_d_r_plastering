@@ -117,19 +117,19 @@ INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
 
 - Desktop Wireframes 
 
-![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Desktop%20screenshot.png "Desktop - Wireframe screenshot")
+![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-desktop-screenshot.png "Desktop - Wireframe screenshot")
 
 - Tablet Wireframes 
 
-![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Tablet%20screenshot.png "Tablet - Wireframe screenshot")
+![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-tablet-screenshot.png "Tablet - Wireframe screenshot")
 
 - Mobile Wireframes 
 
-![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Figma%20-%20Mobile%20screenshot.png "Mobile - Wireframe screenshot")
+![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-mobile-screenshot.png "Mobile - Wireframe screenshot")
 
 - 'Get a Quote' pop up form Wireframe 
 
-![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/Get%20a%20quote%20popup.png "Form - Wireframe screenshot")
+![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/get-quote-popup.png "Form - Wireframe screenshot")
 
 Full workspace & diagrams hosted on figma.com can be found here: https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1
 
