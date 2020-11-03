@@ -5,13 +5,13 @@ body {
 
 /*---------- Logo & Navbar Styling ----------*/
 
-#logo {
+.logo {
     height: 100px;
     width: 140px;
 }
 
 .logo-container {
-    height: 10%;
+    height: 100px;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -29,12 +29,21 @@ body {
     color: #000;
 }
 
+.logo-container-resize {
+    height: 50px;
+}
+
+.logo-hide {
+    height: 2px;
+}
+
 /*---------- Header Styling ----------*/
 
 .header-outer {
     background-color: #707070;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .header-outer div p {
@@ -160,6 +169,12 @@ button:focus {
 }
 
 /*---------- Contact Page Styling ----------*/
+
+#contact-information {
+    position: relative;
+    padding-top: 10px;
+    z-index: 2;
+}
 
 .contact-info {
     min-height: 80px;
