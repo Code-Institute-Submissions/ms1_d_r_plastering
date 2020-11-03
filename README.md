@@ -115,7 +115,7 @@ The Contact page will consist of two sections. The first section will consist of
 
 ![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/get-quote-popup.png "Form - Wireframe screenshot")
 
-Full workspace & diagrams hosted on figma.com can be found here: [Figma.com - Jamie Rolls - MS1] (https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1)
+Full workspace & diagrams hosted on figma.com can be found here: [Figma.com - Jamie Rolls - MS1](https://www.figma.com/file/imQzaWMTA9Faz6ezvda34b/MS1-Jamie-Rolls-D-R-Plastering-Services?node-id=0%3A1)
 
 ### Responsive Design
 
