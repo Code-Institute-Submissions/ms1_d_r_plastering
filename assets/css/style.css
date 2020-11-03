@@ -195,7 +195,7 @@ button:focus {
     position: relative;
     padding-top: 10px;
     z-index: 2;
-    margin-top: 160px;
+    margin-top: 180px;
 }
 
 #contact-information-home {
@@ -272,6 +272,10 @@ button:focus {
 }
 
 /*---------- Contact Form Styling ----------*/
+
+#mail-btn {
+    color: black;
+}
 
 .get-quote-banner-link {
     border: none;
@@ -580,5 +584,11 @@ footer {
       text-align: center;
       font-size: 1rem;
     }
+    #contact-information {
+    position: relative;
+    padding-top: 10px;
+    z-index: 2;
+    margin-top: 140px;
+}
 }
 
