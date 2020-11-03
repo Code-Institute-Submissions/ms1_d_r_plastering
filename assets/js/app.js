@@ -21,3 +21,19 @@ $(window).scroll(function(){
     $(".logo").addClass("logo-hide");
  }
 });
+
+$(window).scroll(function(){
+   if ($(window).scrollTop() == 0) {
+    $("#contact-information").removeClass("contact-container-resize");
+ } else {
+    $("#contact-information").addClass("contact-container-resize");
+ }
+});
+
+$(window).scroll(function(){
+   if ($(window).scrollTop() == 0) {
+    $("#contact-header-container").removeClass("contact-container-resize");
+ } else {
+    $("#contact-header-container").addClass("contact-container-resize");
+ }
+});

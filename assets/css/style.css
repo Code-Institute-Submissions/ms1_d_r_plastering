@@ -29,12 +29,26 @@ body {
     color: #000;
 }
 
+.navbar-nav span {
+    border-right: 1px solid #707070;
+    margin-left: 10px;
+    display: inline;
+}
+
+
 .logo-container-resize {
     height: 50px;
 }
 
 .logo-hide {
     height: 2px;
+}
+
+ul i {
+    font-size: 2rem;
+    padding: 5px;
+    margin-top: 5px;
+    color: #4e4e4e;
 }
 
 /*---------- Header Styling ----------*/
@@ -175,6 +189,10 @@ button:focus {
     position: relative;
     padding-top: 10px;
     z-index: 2;
+}
+
+.contact-container-resize {
+    margin-top: 40px;
 }
 
 .contact-info {
@@ -442,6 +460,9 @@ footer {
     #hero-text-small {
         text-align: center;
     }
+    .navbar-nav span {
+    display: none;
+    }  
 }
 
 @media (max-width: 440px) {
@@ -494,7 +515,14 @@ footer {
       display: none;
     }
     #hero-text {
-      font-size: 47px;
+      font-size: 42px;
+      padding-top: 20px;
+    }
+    ul i {
+    font-size: 1.4rem;
+    padding: 3px;
+    margin-top: 3px;
+    color: #4e4e4e;
     }
 }
 
@@ -504,8 +532,8 @@ footer {
         width: 100%;
     }
     #hero-text {
-        font-size: 48px;
-    }    
+        font-size: 42px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -524,10 +552,10 @@ footer {
     .header-outer div p {
         font-size: 3rem;
     }
-  #services-container h6 {
+    #services-container h6 {
       font-size: 1.8rem;
     }
-  #services-container p {
+    #services-container p {
       text-align: center;
       font-size: 1rem;
     }
