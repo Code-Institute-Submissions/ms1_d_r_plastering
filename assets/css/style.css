@@ -273,6 +273,11 @@ button:focus {
 
 /*---------- Contact Form Styling ----------*/
 
+.get-quote-banner-link {
+    border: none;
+    background: none;
+}
+
 .form-control {
   background-color: #ebebeb;
   margin: 10px;
