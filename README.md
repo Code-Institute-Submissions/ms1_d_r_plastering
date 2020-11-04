@@ -73,25 +73,55 @@ I started with a single home page design, worked on developing a page structure 
 
 #### Home
 
-The Homepage will feature three sections, on both desktop and tablet - all three sections will be visible without the need to scroll. The first section will contain a large photograph relevant the trade, overlayed by a bold business statement. It will also hold two call to action buttons, the first (OUR SERVICES) linking to the services page and the other (GET A QUOTE) linking to a pop-up contact form.
+The Homepage will feature three sections, on both desktop and tablet - all three sections will be visible without the need to scroll. The first section will contain a large photograph relevant the trade, overlayed by a bold business statement. 
+
+It will also contain two call to action buttons, the first (OUR SERVICES) linking to the services page and the other (GET A QUOTE) linking to a pop-up form.
+
 The second section will contain clear contact details for the business.
-The third section will be divided vertically into two equal halfs. One part containing rotating testimonials, the other part informing the user of the business in some form.
+
+The third section will be divided vertically into two equal halfs. One part containing testimonials, the other part informing the user of the business services.
 
 #### Services
 
-The Services page will consist of three sections. Again, on both desktop and tablet - all sections will be visible without the need to scroll. The first section will contain clear contact details for the business. The second section will contain a header - followed by a breakdown of the three services offered by the business, occupying an equal amount of the page each in a horizontal format. The third section is simply a page break followed by a call to action button guiding the user to - *GET A QUOTE*
+The Services page will consist of three sections. Again, on both desktop and tablet - all sections will be visible without the need to scroll. 
+
+The first section will contain clear contact details for the business. 
+
+The second section will contain a header - followed by a breakdown of the services offered by the business.
+
+The third section is simply a page break followed by a call to action button guiding the user to - *GET A QUOTE*
 
 #### Gallery
 
-The Gallery page will consist of two sections. On desktop both sections will be visible without the need to scroll. Scrolling will be required on tablet and mobile view, but the images will reformat to ensure the best experience for the user. The first section will contain clear contact details for the business. The second section will contain a header - followed by six photographs of completed work. Each photo will be clickable to expand into a larger view. The third section is simply a page break followed by a call to action button guiding the user to - *GET A QUOTE*, which will open a pop-up contact form when clicked on by the user.
+The Gallery page will consist of two sections. On desktop both sections will be visible without the need to scroll. 
+
+The first section will contain clear contact details for the business. 
+
+The second section will contain a header - followed by six photographs of completed work. Each photo will be clickable to expand into a larger view. 
+
+The third section is simply a page break followed by a call to action button guiding the user to - *GET A QUOTE*, which will open a pop-up contact form when clicked on by the user.
 
 #### About
 
-The About page will consist of four sections, no scrolling will be required to view all sections on desktop and tablet. The first section will contain clear contact details for the business. The second section will contain a header - followed by a short bio of the business tradesman on the left of the screen - directly to the right will be a stock image, which compliments the site. A short page break will be followed by the third section - containing the company values statements. This will display four key words, elegantly spaced and styled to acheive a bold and confident message to the viewer. The final section will be as is on both the *Gallery* & *Services* pages, with a call to action button for the user to - *GET A QUOTE*, which will open a pop-up contact form when clicked on by the user.
+The About page will consist of four sections, no scrolling will be required to view all sections on desktop and tablet. 
+
+The first section will contain clear contact details for the business.
+
+The second section will contain a header - followed by a short bio of the business on the left of the screen - directly to the right will be a stock image, which compliments the site. 
+
+A short page break will be followed by the third section - containing the company values statements. This will display four key words, elegantly spaced and styled to acheive a bold and confident message to the viewer. 
+
+The final section will contain a call to action button for the user to - *GET A QUOTE*, which will open a pop-up contact form when clicked on by the user.
 
 #### Contact
 
-The Contact page will consist of two sections. The first section will consist of three elements. A section header, a contact information box and the contact form. On desktop views the contact information box will be justified left and the contact form to the right. On tablet and mobile, both will be centralised on the page, contact details followed by the contact form directly below. The second section will retail the same container space as used on the *About*, *Gallery* & *Services* pages, but in absence of the call to action button, as it is not required on this page.
+The Contact page will consist of two sections. 
+
+The first section will consist of three elements. A section header, a contact information box and the contact form. 
+
+On desktop views the contact information box will be justified left and the contact form to the right. On tablet and mobile, both will be centralised on the page.
+
+The second section will retail the same container space as used on the *About*, *Gallery* & *Services* pages, but in absence of the call to action button, as it is not required on this page.
 
 -----
 
@@ -158,17 +188,17 @@ INSERT INFORMATION HERE, ONCE DECIDED ON FONT CHOICE
 
 The site uses Bootstrap to create a collapsed navbar on small devices. This enables users to view more relevant content on smaller screens, with the option to expand the navbar if required.
 
-The navbar also becomes fixed to the top of all pages if a user scrolls down to see more content. By doing this, the banner with the brand logo also dissapears. This is made possible by utilizing JavaScript technology.
+The navbar and logo banner also becomes fixed to the top of all pages if a user scrolls down to see more content on a page.
 
-A modal form is viewable upon clicking the 'get a quote' button on any page. Although not functioning as a form currently, for design purposes and to demonstrate the user journey it is linked to a response page. This provides feeback to the user, once data is submitted using the form. The same response page is linked to the contact form (viewable on contact.html page). The modal form was acheived by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
+A modal form is viewable upon clicking the 'get a quote' button on any page. Although not functioning fully as a form, for design purposes and to demonstrate the user journey it is linked to a response page. This provides feeback to the user, once data is submitted using the form. The same response page is linked to the contact form (viewable on contact.html page). The modal form was acheived by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
 
 An automated scrolling testimonal section is displayed on the home page. This is acheived using supporting code from the Bootstrap carousel component. https://getbootstrap.com/docs/4.0/components/carousel/
 
 ### Future Features
 
-I would like to add functionality for the business to be able to update their Gallery images, with current completed projects. This would need to be via an intuitive user friendly approach, with no knowledge of coding and would require other technologies not currently used in this project.
+I would like to add functionality for the business to be able to update their Gallery images themselves, with newly completed projects. This would need to be via an intuitive user friendly approach, with no knowledge of coding and would require other technologies not currently used in this project.
 
-I would also like to add more functionality to the services page, enabling the user to click the images on the services page to view more images relating only to that specific service.
+I would also like to add more functionality to the services page, enabling the user to click the images on the services page to view more images which have been filtered only to display those related to that specific service.
 
 I also wish to animate the buttons used throughout the site, to provide visual feedback to users when they are interacting with button elements.
 
@@ -176,11 +206,10 @@ I also wish to animate the buttons used throughout the site, to provide visual f
 
 ## Changes In Functionality / Design
 
-I have since decided to use a modal for the pop up form (Get a Quote) - it does not adopt the design from the wireframe above. 
-
 It was decided that the 'get a quote' form was to be different from the contact us form. As they serve two different purposes.
+I have since decided to use a modal for the pop up form (Get a Quote), as opposed to the contact form originally developed using wireframes.
 
-Multiple Testimonials were added to the page - using a Bootstrap carousel - this will support user confidence in the business.
+Multiple Testimonials were added to the home page - using a Bootstrap carousel - this will support user confidence in the business, by providing more examples.
 
 -----
 
