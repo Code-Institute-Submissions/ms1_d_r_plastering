@@ -4,9 +4,10 @@
 -----
 Project: User-Centric Frontend Development - Create a user centric website using front end technologies - HTML5 - CSS3 and supporting libraries such as Bootstrap.
 
-This project will focus on the creation of a real-life purpose built webpage for a working tradesman - Who conducts Plastering services within the West Midlands, UK.
+The project will focus on the creation of a real-life purpose built webpage for a working tradesman - Who conducts Plastering services within the West Midlands, UK.
 
-[![Desktop] (https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/responsive-project-screenshot.png)](http://ami.responsivedesign.is/?url=https://jamie120.github.io/ms1_d_r_plastering/index.html)
+![Desktop](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/responsive-project-screenshot.png "responsive-project-screenshot")
+This preview was generated using - http://ami.responsivedesign.is
 
 ## Demo
 A live version of the site is available [here.](https://jamie120.github.io/ms1_d_r_plastering/index.html)
