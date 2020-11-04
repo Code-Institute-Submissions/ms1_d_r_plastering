@@ -222,9 +222,28 @@ Multiple Testimonials were added to the home page - using a Bootstrap carousel -
 
 ## Deployment
 
+This site is hosted using GitHub pages, deployed directly from the master branch. 
+The deployed site will update automatically upon new commits to the master branch. 
+In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+
+### Cloning
+
+To run this code locally, you can clone this repository directly into the editor of your choice by following the steps below :
+
+1. Open Terminal
+2. Change the current working directory to the location when you want the cloned directory.
+3. Type the following into your Terminal:  
+    git clone https://github.com/jamie120/ms1_d_r_plastering.git
+4. Press Enter to create a local clone
+
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
 -----
 
 ## Credits
+
+
 
 ### Content
 ### Media
