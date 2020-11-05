@@ -131,13 +131,33 @@
         </div>
     </section>
 
-    <!--********CONTACT INFORMATION********--> 
+    <!--********CONTACT INFORMATION********-->
+    <!--********PHONE NUMBER MODAL*********-->
+    <div class="modal fade" id="modalPhoneNumber" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <form method="get" action="response.html">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body mx-3">
+                                            <div class="md-form mb-5 d-flex justify-content-center">
+                                                <i class="fas fa-phone prefix"> Dean Rolls: 07957773568</i>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn" id="modal-btn-close" data-dismiss="modal" >Close</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
     <section id="contact-information-home" class="container-fluid">
         <div class="container contact-info">
             <div class="row">
                 <div class="col-lg-3 text-center">
-                    <p><strong>Call: Dean Rolls <i class="fas fa-phone"></i></strong></p>
-                    <p id="phone-number">07957773568</p>
+                    <a data-toggle="modal" data-target="#modalPhoneNumber"><p><strong>Call Us <br><i class="fas fa-phone"></i></strong></p></a>
                     <hr class="vertical-responsive-break">
                 </div>
                 <div class="col-lg-6 text-center" id="quote-statement-home">
@@ -147,8 +167,7 @@
                 </div>
                 <div class="col-lg-3 text-center">
                     <a id="mail-btn" href="mailto:someone@yoursite.com" target="_blank">
-                    <p><strong>Email <i class="fas fa-envelope-open-text"></i></strong></p>
-                    <p>deano120@hotmail.co.uk</p>
+                    <p><strong>Email <br><i class="fas fa-envelope-open-text"></i></strong></p>
                     </a>
                     <hr class="vertical-responsive-break">
                 </div>

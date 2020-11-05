@@ -151,6 +151,10 @@ button:focus {
     background-color: #DCA518;
 }
 
+#modal-btn-close {
+    background-color: #DCA518;
+}
+
 /*---------- Business info & Testimonials Section ----------*/
 
 .business-info {
@@ -219,6 +223,13 @@ button:focus {
     background-color: white;
     margin-top: 15px;
 }
+
+.contact-info p {
+    font-size: 20px;
+    color: #2e2e2e;
+    line-height: 1.8;
+}
+
 
 .telephone-info {
     justify-content: center;
