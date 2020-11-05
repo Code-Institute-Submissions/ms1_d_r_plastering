@@ -1,4 +1,4 @@
-# MS1-Code-Insitute-Project - Jamie Rolls
+# MS1-Code-Institute-Project - Jamie Rolls
 
 ## D R PLASTERING - SERVICES WEBSITE
 -----
