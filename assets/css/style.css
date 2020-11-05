@@ -548,7 +548,7 @@ footer {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
     #services-container img {
         height: 40vh;
         width: 100%;
@@ -569,6 +569,8 @@ footer {
         height: 50vh;
         width: 100%;
     }
+}
+@media (max-width: 990px) {
     #contact-info-wrap, #quote-form {
         margin: auto;
         margin-top: 15px;
