@@ -155,6 +155,18 @@ button:focus {
     background-color: #DCA518;
 }
 
+.phone-modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.phone-modal-body p {
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
 /*---------- Business info & Testimonials Section ----------*/
 
 .business-info {
