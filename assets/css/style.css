@@ -180,12 +180,17 @@ button:focus {
 
 #testimonial-header {
     margin-left: 16px;
+    margin-bottom: 25px;
 }
 
 .testimonial {
     margin-left: 40px;
     border-left: 2px solid #DCA518;
     padding-left: 15px;
+}
+
+#testimonial-carousel h6 {
+    margin-left: 50px;
 }
 
 #experience-header {
