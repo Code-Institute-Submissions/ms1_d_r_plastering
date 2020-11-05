@@ -40,6 +40,9 @@ body {
     display: inline;
 }
 
+.navbar-nav {
+    text-align: center
+}
 
 .logo-container-resize {
     height: 50px;
