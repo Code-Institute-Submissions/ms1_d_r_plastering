@@ -107,7 +107,6 @@ ul i {
 #hero {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     position: relative;
     background: url("../images/home-image.jpeg") no-repeat center center;
     background-size: cover;
@@ -122,6 +121,7 @@ ul i {
 
 .hero-btn-container {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .hero-btn {
@@ -227,6 +227,7 @@ button:focus {
 
 .contact-break-end {
       border: 1px solid #B89F91;
+      width: 100%;
 }
 
 #logo-contact-page {
@@ -495,9 +496,8 @@ footer {
         width: 100px;
         font-size: 15px;
     }
-    #hero-text {
-        font-size: 26px;
-        text-align: center;
+    #hero-text-small {
+        font-size: 15px
     }
     #experience-header {
         font-size: 18px;
@@ -553,9 +553,6 @@ footer {
         height: 40vh;
         width: 100%;
     }
-    #hero-text {
-        font-size: 42px;
-    }
     #contact-header-container {
         margin-top: 155px;
     }
@@ -579,8 +576,6 @@ footer {
     }
 }
 
-
-
 @media (max-width: 768px) {
     #quote-statement-home {
         display: none;
@@ -588,14 +583,13 @@ footer {
     #contact-header-container {
         margin-top: 190px;
     }
-#contact-information {
+    #contact-information {
     position: relative;
     padding-top: 10px;
     z-index: 2;
     margin-top: 190px;
     }
 }
-
 
 @media (max-width: 576px) {
     .header-outer div p {
@@ -619,3 +613,13 @@ footer {
     }
 }
 
+@media (max-width: 380px) {
+    #hero-text {
+        font-size: 36px;
+        text-align: center;
+    }
+    #hero-text-small {
+        font-size: 24px;
+        text-align: center;
+    }
+}
