@@ -269,6 +269,7 @@ button:focus {
     height: 130px;
     width: 270px;
     padding: 15px;
+    padding-top: 20px;
     margin: 20px;
     margin-left: 0px;
     margin-bottom: 30px;
