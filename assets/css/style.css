@@ -240,7 +240,7 @@ button:focus {
 }
 
 #contact-header-container {
-    margin-top: 170px;
+    margin-top: 180px;
     margin-bottom: 20px;
 }
 
@@ -587,7 +587,7 @@ footer {
         width: 100%;
     }
     #contact-header-container {
-        margin-top: 155px;
+        margin-top: 165px;
     }
     #contact-information {
     position: relative;
@@ -616,7 +616,7 @@ footer {
         display: none;
     }
     #contact-header-container {
-        margin-top: 190px;
+        margin-top: 200px;
     }
     #contact-information {
     position: relative;
