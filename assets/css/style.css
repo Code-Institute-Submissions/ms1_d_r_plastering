@@ -324,6 +324,7 @@ button:focus {
     height: 40px;
     width: 120px;
     font-size: 15px;
+    border-radius: 8px;
     border: solid 1px #2e2e2e;
     background-color: #DCA518;
     margin-bottom: 10px;
@@ -341,6 +342,7 @@ button:focus {
     height: 60px;
     width: 120px;
     font-size: 15px;
+    border-radius: 5px;
     border: solid 1px #2e2e2e;
     background-color: #DCA518;
 }
