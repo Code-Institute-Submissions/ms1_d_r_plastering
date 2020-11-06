@@ -134,13 +134,14 @@ body {
 }
 
 .hero-btn {
-    height: 60px;
-    width: 120px;
+    height: 70px;
+    width: 140px;
     font-size: 18px;
     border-radius: 10px;
     border: solid 1px #2e2e2e;
-    background-color: #B89F91;
+    background-color: #DCA518;
     margin-bottom: 20px;
+    margin-top: 6px;
 }
 
 #hero-content div.row {
@@ -148,7 +149,8 @@ body {
 }
 
 #hero-btn-services {
-    background-color: #DCA518;
+    color: black;
+    padding: 0;
 }
 
 /*---------- Modal Styling ----------*/
