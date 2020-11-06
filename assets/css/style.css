@@ -57,7 +57,7 @@ body {
     height: 2px;
 }
 
-ul i {
+.navbar-nav i {
     font-size: 2rem;
     padding: 5px;
     margin-top: 5px;
@@ -571,7 +571,7 @@ footer {
       font-size: 42px;
       padding-top: 20px;
     }
-    ul i {
+    .navbar-nav i {
     font-size: 1.4rem;
     padding: 3px;
     margin-top: 3px;
