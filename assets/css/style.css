@@ -239,6 +239,14 @@ button:focus {
     padding-top: 10px;
 }
 
+#contact-information-home i {
+    text-shadow: 3px 3px 3px #cecece;
+}
+
+#contact-information i {
+    text-shadow: 3px 3px 3px #cecece;
+}
+
 #contact-header-container {
     margin-top: 180px;
     margin-bottom: 20px;
