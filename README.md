@@ -5,8 +5,8 @@
 
 D R Plastering Services are a real life business, who conduct Plastering services within the West Midlands, UK. With the absence of a web presence, I saw a great opportunity in creating the business a professional, easy to navigate and functional website to attract potential new clients. The website is designed to primarily to enable its users to easily make contact with the business and to promote the services offered to potential clients.
 
-Project Requirements:
-User-Centric Frontend Development - Create a user centric website using front end technologies - HTML5 - CSS3 and supporting libraries such as Bootstrap
+#### **Project Requirements:**
+Create a user centric website using front end technologies - HTML5 - CSS3 and supporting libraries such as Bootstrap.
 
 A live version of the site is available [here.](https://jamie120.github.io/ms1_d_r_plastering/index.html)
 
@@ -15,21 +15,21 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 
 #### Business Objectives
 
-- The website will provide detailed information to its users of the services provided by 'D R Plastering'
-- The site will contain testomonials for users to read/view - provided from previous clients
-- The user will be able to request a free, no obligation quote for work to be completed using the site
-- Contact details will be clearly available throughout the site - making it easy for potential clients to make contact with 'D R Plastering' if desired
+- The website will provide detailed information to its users of the services provided by 'D R Plastering'.
+- The site will contain testomonials for users to read/view - provided from previous clients.
+- The user will be able to request a free, no obligation quote for work to be completed using the site.
+- Contact details will be clearly available throughout the site - making it easy for potential clients to make contact with 'D R Plastering' if desired.
 
 #### Users visiting this website will be:
 
 - Looking to engage with a professional tradesperson, for plastering work to be completed.
-- Curious about the services offered
-- Seeking a quote based on their bespoke needs
+- Curious about the services offered.
+- Seeking a quote based on their bespoke needs.
 
 #### Project Goals
 
-- Create a clear, easily navigatable website for the user
-- Use a consitent, clear theme throughout the site - which compliments the services provided
+- Create a clear, easily navigatable website for the user.
+- Use a consitent, clear theme throughout the site - which compliments the services provided.
 - Include all requested information onto the site for the business - consider appropriate pages and required content to achieve a positive user experience, which instills confidence in the services being offered to the user.
 
 #### User Stories
@@ -72,7 +72,7 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 
     2. The second section will contain clear contact details for the business.
 
-    3. The third section will display testimonials and informing the user of the business services / experience
+    3. The third section will display testimonials and informing the user of the business services / experience.
 
 #### Services
 
@@ -117,19 +117,19 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 
 ## Wireframe designs
 
-- Desktop Wireframes 
+- Desktop Wireframes.
 
 ![Desktop - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-desktop-screenshot.png "Desktop - Wireframe screenshot")
 
-- Tablet Wireframes 
+- Tablet Wireframes.
 
 ![Tablet - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-tablet-screenshot.png "Tablet - Wireframe screenshot")
 
-- Mobile Wireframes 
+- Mobile Wireframes.
 
 ![Mobile - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/figma-mobile-screenshot.png "Mobile - Wireframe screenshot")
 
-- 'Get a Quote' pop up form Wireframe 
+- 'Get a Quote' pop up form Wireframe.
 
 ![Form - ](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/get-quote-popup.png "Form - Wireframe screenshot")
 
@@ -208,9 +208,9 @@ Roboto was chosen as the font to be used sitewide, due to its clean professional
 
 ## Libraries
 
-* [Bootstrap](https://getbootstrap.com/) (4.5.2) - with supporting JS Script and tooltips. Used for the responsive grid system, styling elements and navbar creation
-* [FontAwseome](https://fontawesome.com/) (5.15.1) - used for all icons on the site
-* [MD Bootstrap](https://mdbootstrap.com) (4.19.1) - with supporting JS Script
+* [Bootstrap](https://getbootstrap.com/) (4.5.2) - with supporting JS Script and tooltips. Used for the responsive grid system, styling elements and navbar creation.
+* [FontAwseome](https://fontawesome.com/) (5.15.1) - used for all icons on the site.
+* [MD Bootstrap](https://mdbootstrap.com) (4.19.1) - with supporting JS Script.
 * [Google Fonts](https://fonts.google.com/) - used for the Roboto fonts.
 * [Hover.css](https://ianlunn.github.io/Hover/) - used for animation effects on social icons and various buttons throughout the site.
 * [Adobe Stock](https://stock.adobe.com/uk/) - used for images on homepage and services pages - License purchased for the project by Jamie Rolls.
@@ -226,8 +226,6 @@ Roboto was chosen as the font to be used sitewide, due to its clean professional
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 * [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
-* [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
-
 
 # Testing
 
@@ -253,7 +251,7 @@ Roboto was chosen as the font to be used sitewide, due to its clean professional
 
 ## Testing different browsers
 
-I manually tested the website on the following web browsers
+I manually tested the website on the following web browsers:
 - Google Chrome 
 - Safari
 - Mozilla Firefox 
@@ -283,17 +281,17 @@ All of my code passed the following validation tests:
 
 * The site was developed in GitPod and pushed to the following remote GitHub repository - [REPO](https://github.com/jamie120/ms1_d_r_plastering)
     * The following GIT commands were used throughout deployment:
-        * **git status** ------ used to check the status of files and any changes made / untracked
-        * **git add**   ------ to stage files ready to commit
-        * **git commit -m " "**  ------ to commit the files
-        * **git push** ------ to push the files to the master branch of the GitHub repo
+        * **git status** ------ used to check the status of files and any changes made / untracked.
+        * **git add**   ------ to stage files ready to commit.
+        * **git commit -m " "**  ------ to commit the files.
+        * **git push** ------ to push the files to the master branch of the GitHub repo.
 
 ### Hosting on GitHub Pages
 
 * This site is hosted using GitHub pages, deployed directly from the master branch. - [LIVE SITE](https://jamie120.github.io/ms1_d_r_plastering/index.html)
-    * The following steps were taken to complete the hosting process
+    * The following steps were taken to complete the hosting process.
         1. Log into GitHub.
-        2. Choose the relevant repository [D R Plastering](https://github.com/jamie120/ms1_d_r_plastering).
+        2. Choose the relevant repository. [D R Plastering](https://github.com/jamie120/ms1_d_r_plastering).
         3. Go to settings.
         4. Scroll down to GitHub Pages section.
         5. Select as a source **master branch**.
@@ -307,9 +305,9 @@ All of my code passed the following validation tests:
 
 ### Cloning
 
-To run this code locally, you can clone this repository directly into the editor of your choice by following the steps below :
+To run this code locally, you can clone this repository directly into the editor of your choice by following the steps below:
 
-1. Open Terminal
+1. Open Terminal.
 2. Change the current working directory to the location when you want the cloned directory.
 3. Type the following into your Terminal:  
     git clone https://github.com/jamie120/ms1_d_r_plastering.git
@@ -322,6 +320,7 @@ To run this code locally, you can clone this repository directly into the editor
 # Credits
 
 ## Content
+
 All the content of the website was written by me. Certain content was consulted with the company ' D R Plastering ' to ensure accuracy.
 
 ## Media
@@ -347,4 +346,4 @@ All the content of the website was written by me. Certain content was consulted 
 
 #### I received advice and support from
    * Seun Owonikoko (my mentor)
-   * Code Institute - Slack Community (various people)
+   * Code Institute - Slack Community (various students, tutors and mentors)
