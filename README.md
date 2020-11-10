@@ -2,7 +2,6 @@
 ## Code Institute: Milestone Project 1 - Jamie Rolls
 ---
 ![Desktop](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/wireframes/responsive-project-screenshot.png "responsive-project-screenshot")
-This preview was generated using - http://ami.responsivedesign.is
 
 D R Plastering Services are a real life business, who conduct Plastering services within the West Midlands, UK. With the absence of a web presence, I saw a great opportunity in creating the business a professional, easy to navigate and functional website to attract potential new clients. The website is designed to primarily to enable its users to easily make contact with the business and to promote the services offered to potential clients.
 
@@ -40,8 +39,6 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 3. As a potential client, I want to leave a message/query but I would rather not call.
 4. As a potential client, I want to easily be able to contact somebody directly - so that I can arrange to recieve a quote.
 5. As a potential client, I want to easily find the contact details of the buisness, as I would rather speak to somebody directly.
-6. As a potential client, I would like to leave a message detailing the work I need completing and request a call back at a suitable time to discuss the work.
-
 
 # Structure
 
