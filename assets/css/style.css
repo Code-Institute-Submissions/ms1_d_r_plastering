@@ -505,7 +505,13 @@ footer {
 /*---------- Media Queries ----------*/
 
 @media (min-width: 992px) {
-    .vertical-responsive-break, #response-time-statement-small {
+    .vertical-responsive-break {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+  #response-time-statement-small {
         display: none;
     }
 }
@@ -615,11 +621,14 @@ footer {
         width: 100%;
     }
 }
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
     #contact-info-wrap, #quote-form {
         margin: auto;
         margin-top: 15px;
         margin-bottom: 30px;
+    }
+    #response-time-statement {
+        display: none;
     }
 }
 
