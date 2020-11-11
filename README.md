@@ -359,6 +359,8 @@ All of my code passed the following validation tests:
 - HTML: [W3C Markup Validation Service](https://validator.w3.org/)
 - CSS: [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
 
+Screenshots of validations for each page of code can be found [here](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/testing)
+
 
 ## Issues found
 
