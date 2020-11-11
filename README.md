@@ -10,6 +10,35 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 A live version of the site is available [here.](https://jamie120.github.io/ms1_d_r_plastering/index.html)
 
+# Table of Contents
+
+1.  [Strategy & Scope](#strategy-&-scope)
+    * [UX](#ux)
+        * [Business Objectives](#business-objectives)
+        * [User Objectives](#user-objectives)
+        * [Project goals](#project-goals)
+        * [User Stories](#user-stories)
+2.  [Structure](#structure)
+    * [Design Process](#design-process)
+        * [Page Structure](#page-structure)
+            * [Home](#home)
+            * [Services](#services)
+            * [Gallery](#gallery)
+            * [About](#about)
+            * [Contact](#contact)
+3.  [Skeleton](#skeleton)
+    * [Wireframe Designs](#wireframe-designs)
+    * [Responsive Design](#responsive-design)
+    * [Changes In Functionality / Design](#changes-in-functionality-and-design)
+4.  [Surface](#surface)
+    * [Colors](#colours)
+    * [Fonts](#fonts)
+5.  [Features](#features)
+    * [Navbar](#nav-bar)
+    * [Modal](#get-a-quote-form)
+    * [Testimonials](#testimonials)
+
+
 # Strategy & Scope
 ## UX
 
@@ -20,7 +49,7 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 - The user will be able to request a free, no obligation quote for work to be completed using the site.
 - Contact details will be clearly available throughout the site - making it easy for potential clients to make contact with 'D R Plastering' if desired.
 
-#### Users visiting this website will be:
+#### User Objectives:
 
 - Looking to engage with a professional tradesperson, for plastering work to be completed.
 - Curious about the services offered.
@@ -142,7 +171,7 @@ Once all the wireframes were developed for viewing on a larger desktop sized dis
 This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
 
 
-## Changes In Functionality / Design
+## Changes In Functionality and Design
 
 It was decided that the 'get a quote' form was to be different from the contact us form. As they serve two different purposes.
 I have since decided to use a modal for the pop up form (Get a Quote), as opposed to the contact form originally developed using wireframes.
@@ -170,29 +199,52 @@ Roboto was chosen as the font to be used site wide, due to its clean professiona
 
 # Features
 
-## Nav Bar
+## Sitewide
+
+### Get a Quote - Modal Form
+
+* A modal form is viewable upon clicking the 'get a quote' button on any page it is present. The modal form was achieved by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
+* The buttons slightly grow in size when hovered upon. 
+* Although not functioning as a form and actually submitting data, for design purposes and to demonstrate the user journey it is linked to a response page.
+
+### Nav Bar
+
 * The site uses Bootstrap to create a collapsed navbar on small devices. This enables users to view more relevant content on smaller screens, with the option to expand the navbar if required.
 
 * The navbar and logo banner becomes fixed to the top of all pages if a user scrolls down to see more content on a page.
 
 * Links to social media are fixed to the navbar - with a hover effect to indicate a user can interact with the icons.
 
-## Get a Quote - Modal Form
+### Contact Information
 
-* A modal form is viewable upon clicking the 'get a quote' button on any page. The modal form was achieved by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
-* The buttons slightly grow in size when hovered upon. 
-* Although not functioning as a form and actually submitting data, for design purposes and to demonstrate the user journey it is linked to a response page.
+* Users can engage with the contact information across the site in two ways:
+    * Firstly the phone icon can be clicked to obtain a contact name and number presented in a pop-up modal.
+    * Secondly the 'email us' text + icon can be clicked to open the users default mail app to contact the business by email, if a webserver a new tab will be opened.
 
-## Testimonials 
+## Home Page
+
+### Testimonials 
 
 * An automated scrolling testimonial section is displayed on the home page. This is achieved using supporting code from the Bootstrap carousel component. https://getbootstrap.com/docs/4.0/components/carousel/
+
+### Hero Image - Buttons
+
+* A user can easily navigate to the services page by clicking on the first of the hero-image overlaid buttons. This provides a quick and easy way to navigagte to what is expected to be one of the most visited pages on the website.
+* The second button, when clicked, opens a the get a quote modal. The function of this button was also chosen in anticipation that requesting a quote will one of the most conducted tasks by users of the site.
+* Both buttons animate when hovered upon - they increase in scale by 10% - drawing attention of the user.
 
 ## About Page
 ### Google Map Feature
 
 * An embedded Google map on the about page, indicates a fixed area in which the business operates. This is a nice touch to the website and provides the website user with a clear view of the business operating area. This map was embedded using code from the following site: https://www.embedgooglemap.net/en/?gclid=CjwKCAjwmMX4BRAAEiwA-zM4JoyJB_AMMTM8hXyyqUkgRPOhXRWv6NyhWXqxULExeMFMwcGrFYMOzRoCLf0QAvD_BwE
 
-## Future Features
+## Contact Page
+
+### Contact Us Form
+
+* A user may wish to make a general enquiry, as opposed to requesting a quote. Therefore a general contact form is available on the contact page. It forwards the user to a response page once the form is submitted, providing visual feedback to the user.
+
+# Future Features
 
 * I would like to add functionality for the business to be able to update their Gallery images themselves, with newly completed projects. This would need to be via an intuitive user friendly approach, with no knowledge of coding and would require other technologies not currently used in this project.
 
@@ -247,6 +299,19 @@ Roboto was chosen as the font to be used site wide, due to its clean professiona
 * **As a potential client, I want to easily find the contact details of the business, as I would rather speak to somebody directly.**
     * On each page I was able to locate a direct phone number with ease.
 
+## Testing Features
+
+- All the features detailed in the [Features](#features) section have been thoroughly tested for functionality.
+    * The navbar was tested to collapse at the correct breakpoint.
+    * The forms were both tested for validation of inputted data and that the user is forwarded to the response page once submitted.
+    * Both modals were tested for functionality on various screen sizes.
+    * Checks completed to ensure mailto links open in a new browser tab.
+    * All buttons and nav links were checked for correct forwarding address.
+    * Testimonials were checked to ensure carousel effect is animating correctly on all devices and browsers.
+
+Further testing was completed by a friend,. With no information prior to the visiting the site of the purpose / business. They provided feedback on functionality and look and feel.
+Feedback received was positive and various user stories were able to be conducted with no issues.
+
 ## Testing responsiveness
 
 - I used Google Developer Tools within Chrome to view the project on responsively on all screen sizes, down to < 300px width.
@@ -275,7 +340,12 @@ All of my code passed the following validation tests:
 
 * I had overflow issues when my site was first posted on the peer-code-review forum on the Code Institute Slack community. Fellow students highlighted this to me whilst testing reviewing my code. I was able to resolve this issue by making changes to my grid and adjusting various parameters.
 
+* Nav Bar links were found not to be active on the relevant pages - this was an easy fix to implement upon receiving the feedback.
 
+* An ongoing visual bug to resolve occurs on Safari browsers using an Apple iMAC. Where the footer and quote button overlay some site content if the browser is resized in a particular way (screenshot provided below). This issue does not occur in other browsers and will rarely affect the user expereience. Although it does requires further research debugging to resolve, something I would look to resolve in future deployments of the site.
+
+![Bug - Screenshot](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/readme/bug-screenshot-safari-1.png "bug-screenshot")
+![Bug - Screenshot-2](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/readme/bug-screenshot-safari-2.png "bug-screenshot-2")
 
 -----
 
@@ -287,6 +357,9 @@ All of my code passed the following validation tests:
         * **git add**   ------ to stage files ready to commit.
         * **git commit -m " "**  ------ to commit the files.
         * **git push** ------ to push the files to the master branch of the GitHub repo.
+
+    * NOTE : commit text on this project was written in 'past tense' up until 4th November 2020.
+    * All future commits from 4th November date are written in present tense - following action suggested by my mentor.
 
 ### Hosting on GitHub Pages
 
