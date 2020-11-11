@@ -12,7 +12,7 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 
 # Table of Contents
 
-1.  [Strategy & Scope](#strategy-&-scope)
+1.  [Strategy & Scope](#strategy-and-scope)
     * [UX](#ux)
         * [Business Objectives](#business-objectives)
         * [User Objectives](#user-objectives)
@@ -34,12 +34,42 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
     * [Colors](#colours)
     * [Fonts](#fonts)
 5.  [Features](#features)
-    * [Navbar](#nav-bar)
-    * [Modal](#get-a-quote-form)
-    * [Testimonials](#testimonials)
+    * [Sitewide](#sitewide)
+        * [Modal](#get-a-quote-form)
+        * [Navbar](#nav-bar)
+        * [Contact Information](#contact-information)
+    * [Homepage](#home-page)
+        * [Testimonials](#testimonials)
+        * [Hero Image Buttons](#hero-image-buttons)
+    * [About Page](#about-page)
+        * [Google Map Feature](#google-map-feature)
+    * [Contact Page](#contact-page)
+        * [Contact Us Form](#contact-us-form)
+6.  [Future Features](#future-features)
+7.  [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries](#libraries)
+    * [Tools](#tools)
+8.  [Testing](#testing)
+    * [Testing User Stories](#testing-user-stories)
+    * [Testing Features](#testing-features)
+    * [Testing Responsiveness](#testing-responsiveness)
+    * [Testing Different Browsers](#testing-different-browsers)
+    * [Validating Code](#validating-the-html-and-css-code)
+    * [Issues Found](#issues-found)
+9. [Deployment](#deployment)
+    * [Hosting on GitHub Pages](#hosting-on-github-pages)
+    * [Cloning](#cloning)
+10. [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+        * [Images](#images)
+    * [Acknowledgements](#acknowledgements)
+        * [Sites used](#sites-used-for-information-and-support)
+        * [Advice & Support](#i-received-advice-and-support-from)
 
 
-# Strategy & Scope
+# Strategy and Scope
 ## UX
 
 #### Business Objectives
@@ -49,7 +79,7 @@ A live version of the site is available [here.](https://jamie120.github.io/ms1_d
 - The user will be able to request a free, no obligation quote for work to be completed using the site.
 - Contact details will be clearly available throughout the site - making it easy for potential clients to make contact with 'D R Plastering' if desired.
 
-#### User Objectives:
+#### User Objectives
 
 - Looking to engage with a professional tradesperson, for plastering work to be completed.
 - Curious about the services offered.
@@ -201,7 +231,7 @@ Roboto was chosen as the font to be used site wide, due to its clean professiona
 
 ## Sitewide
 
-### Get a Quote - Modal Form
+### Get a Quote Form
 
 * A modal form is viewable upon clicking the 'get a quote' button on any page it is present. The modal form was achieved by using supporting code from the MD Bootstrap library. https://mdbootstrap.com/docs/jquery/modals/forms/
 * The buttons slightly grow in size when hovered upon. 
@@ -227,7 +257,7 @@ Roboto was chosen as the font to be used site wide, due to its clean professiona
 
 * An automated scrolling testimonial section is displayed on the home page. This is achieved using supporting code from the Bootstrap carousel component. https://getbootstrap.com/docs/4.0/components/carousel/
 
-### Hero Image - Buttons
+### Hero Image Buttons
 
 * A user can easily navigate to the services page by clicking on the first of the hero-image overlaid buttons. This provides a quick and easy way to navigagte to what is expected to be one of the most visited pages on the website.
 * The second button, when clicked, opens a the get a quote modal. The function of this button was also chosen in anticipation that requesting a quote will one of the most conducted tasks by users of the site.
@@ -343,11 +373,13 @@ All of my code passed the following validation tests:
 * Nav Bar links were found not to be active on the relevant pages - this was an easy fix to implement upon receiving the feedback.
 
 * An ongoing visual bug to resolve occurs on Safari browsers using an Apple iMAC. Where the footer and quote button overlay some site content if the browser is resized in a particular way (screenshot provided below). This issue does not occur in other browsers and will rarely affect the user expereience. Although it does requires further research debugging to resolve, something I would look to resolve in future deployments of the site.
+#### Screenshot 1 - 
 
 ![Bug - Screenshot](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/readme/bug-screenshot-safari-1.png "bug-screenshot")
-![Bug - Screenshot-2](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/readme/bug-screenshot-safari-2.png "bug-screenshot-2")
 
------
+#### Screenshot 2 -
+
+![Bug - Screenshot-2](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/readme/bug-screenshot-safari-2.png "bug-screenshot-2")
 
 # Deployment
 
@@ -400,7 +432,7 @@ All the content of the website was written by me. Certain content was consulted 
 
 ## Media
 
-**Images**
+### Images
 
 * All Gallery images were provided by 'D R Plastering' - some of these images are also used throughout the site elsewhere.
 * The following images were purchased with license to use - from Abode Stock:
